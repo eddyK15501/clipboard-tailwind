@@ -564,6 +564,11 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -576,8 +581,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .flex {
   display: flex;
+}
+
+.contents {
+  display: contents;
 }
 
 .w-full {
@@ -659,6 +672,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
 }
 
 .text-darkGrayishBlue {
