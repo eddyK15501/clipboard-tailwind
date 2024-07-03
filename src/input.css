@@ -15,7 +15,11 @@ body {
 }
 
 .section-container {
-    @apply max-w-6xl mx-auto text-center;
+    @apply max-w-6xl mx-auto text-center px-10;
+}
+
+.custom-btn {
+    @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
 }
 
 @media (max-width: 576px) {
