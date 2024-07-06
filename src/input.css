@@ -3,33 +3,37 @@
 @tailwind utilities;
 
 @layer base {
-    h3 {
-        @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
-    }
+  h3 {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
 
-    h5 {
-        @apply mb-2 text-darkGrayishBlue text-2xl font-bold;
-    }
+  h5 {
+    @apply mb-2 text-darkGrayishBlue text-2xl font-bold;
+  }
 }
 
 body {
-    background-image: url('../images/bg-header-desktop.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url('../images/bg-header-desktop.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .section-container {
-    @apply max-w-6xl mx-auto text-center px-10;
+  @apply max-w-6xl mx-auto text-center px-10;
 }
 
 .custom-btn {
-    @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+  @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+}
+
+.s-icon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
 
 @media (max-width: 576px) {
-    body {
-        background-image: url('../images/bg-header-mobile.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
+  body {
+    background-image: url('../images/bg-header-mobile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
